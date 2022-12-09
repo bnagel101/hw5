@@ -18,7 +18,9 @@
  */
 std::set<std::string> wordle(const std::string& in, const std::string& floating, const std::set<std::string>& dict);
 
-void findWords(int place, string in, set<string>& pWords, const set<string>& dict, vector<char> f, string alphabet);
+//The line below commented out is what my prototype was before and the other line is the prototype with adding in scoping to std
+//void findWords(int place, string in, set<string>& pWords, const set<string>& dict, vector<char> f, string alphabet);
+void findWords(int place, std::string in, std::set<std::string>& pWords, const std::set<std::string>& dict, std::vector<char> f, std::string alphabet);
 
 
 
